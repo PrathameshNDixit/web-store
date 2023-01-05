@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap');
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px #90e0ef;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: #caf0f8;
+    justify-content: stretch;
+    font-family: 'Monda', sans-serif;
+    color: #184e77;
+}
+.quants{
+    font-size: 1.5rem;
+}
+.content {
+    padding: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #90e0ef;
+    color: #023e8a;
+    border: none;
+    font-size: 2rem;
+    /* margin-top: 100%; */
+}
+
+.price-tag {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: grey;
+}
