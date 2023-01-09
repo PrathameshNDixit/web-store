@@ -21,7 +21,6 @@ function ProductList() {
     }
     return (
         <div className="card-container">
-            {console.log(products)}
             {products.map((item, i) => (
                 <SingleProduct
                     key={i}

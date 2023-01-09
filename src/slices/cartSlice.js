@@ -14,7 +14,6 @@ const CartSlice = createSlice({
             if (cartItem) {
                 cartItem.quantity += 1;
                 state.quantity+=1;
-                console.log(state.quantity);
                 return;
             }
             state.cart.push({
@@ -22,7 +21,6 @@ const CartSlice = createSlice({
                 id: action.payload,
             });
             state.quantity+=1;
-            console.log(state.quantity);
         },
         removeFromCart: (state, action) => {
             const cartItem = state.cart.find(
